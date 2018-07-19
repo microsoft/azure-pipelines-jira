@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Assert a JSON response payload is valid</description>
+        <display_name>Assert Response JSON Payload Is Valid</display_name>
+        <inputs/>
+        <order>5</order>
+        <step_config display_value="Assert Response JSON Payload Is Valid">f100f7079f132200ef4afa7dc67fcf42</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:50:53</sys_created_on>
+        <sys_id>bc307481db961b80d8f0788dbf96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Response JSON Payload Is Valid</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_atf_step_bc307481db961b80d8f0788dbf96191a</sys_update_name>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:50:53</sys_updated_on>
+        <table/>
+        <test display_value="Scripted REST Test positive">c6986409db561b80d8f0788dbf9619df</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=bc307481db961b80d8f0788dbf96191a"/>
+</record_update>

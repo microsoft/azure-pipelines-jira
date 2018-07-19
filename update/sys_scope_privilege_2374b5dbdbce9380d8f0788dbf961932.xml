@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-18 19:19:47</sys_created_on>
+        <sys_id>2374b5dbdbce9380d8f0788dbf961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.update</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_scope_privilege_2374b5dbdbce9380d8f0788dbf961932</sys_update_name>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-18 19:19:47</sys_updated_on>
+        <target_name>GlideRecord.update</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

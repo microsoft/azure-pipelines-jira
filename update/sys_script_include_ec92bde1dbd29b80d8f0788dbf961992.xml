@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_mioms_vsts_integ.ChangeManager</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ChangeManager</name>
+        <script><![CDATA[var ChangeManager = Class.create();
+var vstsmetadatafieldname = 'x_mioms_vsts_integ_vsts_meta_data';
+ChangeManager.prototype = {
+    initialize: function() {
+    },
+	
+	// Find a change request that matches with the supplied VSTS metadata
+	findChange: function(releasemetadata){	
+	if (releasemetadata)
+	{	
+		var changequery = {"tablename":"change_request","queryitems": [{"field":"","value":""}]};
+		changequery.queryitems[0].field = vstsmetadatafieldname;
+		changequery.queryitems[0].value = releasemetadata;
+		var queryHelper = new x_mioms_vsts_integ.queryHelper();
+		return queryHelper.executeQuery(changequery);		
+	}
+
+	return null;
+	},
+
+    type: 'ChangeManager'
+};
+
+// Static function to get number and state of the change request that matches with the supplied VSTS metadata
+// Input: metadata: VSTSMetadata to match the change request with
+// Output: Json object of the type { "result": { "number": "CHG0030115", "state": "New" } } 
+ChangeManager.FindChangeNumberAndState = function(metadata)
+{
+	var returnObj = {};
+	var changeManager = new ChangeManager();
+	var change = changeManager.findChange(metadata);
+	if (change)
+		{
+			returnObj.number = change.getDisplayValue("number");
+			returnObj.state = change.getDisplayValue("state");		
+		}
+	else
+		{
+			returnObj.number = "";
+			returnObj.state = "";
+		}
+	
+	return returnObj;		
+};
+
+// Static function to create a new change request
+// Input: a flat json with each property matching the corresponding field in change request by name
+// Output: Json object of the type { "result": { "number": "CHG0030115", "state": "New" } } 
+ChangeManager.CreateChange = function(requestObj)
+{
+	var returnObj = {};
+	if (requestObj)
+		{
+			var queryHelper = new x_mioms_vsts_integ.queryHelper();
+			var change = queryHelper.createRecord('change_request', requestObj);
+			if (change)
+				{
+					returnObj.number = change.getDisplayValue("number");
+					returnObj.state = change.getDisplayValue("state");
+				}
+		}
+	
+	return returnObj;	
+};
+
+// Static function to update the change request that matches the supplied metadata
+// Input: metadata: VSTSMetadata to match the change request with
+// Input: a flat json with each property matching the corresponding field in change request by name
+// Output: Json object of the type { "result": { "number": "CHG0030115", "state": "New" } }
+ChangeManager.UpdateChange = function(metadata, requestObj)
+{
+	var returnObj = {};
+	var changeManager = new ChangeManager();
+	var change = changeManager.findChange(metadata);
+	
+	if (change && requestObj)
+		{
+			var queryHelper = new x_mioms_vsts_integ.queryHelper();
+			var updatedchange = queryHelper.updateRecord(change, requestObj);
+			if (updatedchange)
+				{
+					returnObj.number = change.getDisplayValue("number");
+					returnObj.state = change.getDisplayValue("state");
+				}
+		}
+	
+	return returnObj;	
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-25 18:57:49</sys_created_on>
+        <sys_id>ec92bde1dbd29b80d8f0788dbf961992</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ChangeManager</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_script_include_ec92bde1dbd29b80d8f0788dbf961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-28 13:37:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_mioms_vsts_integ_vsts_release_info" label="VSTS Release Info" language="en" table="change_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_mioms_vsts_integ_vsts_release_info</element>
+            <help/>
+            <hint/>
+            <label>VSTS Release Info</label>
+            <language>en</language>
+            <name>change_request</name>
+            <plural>VSTS Release Infos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 22:29:56</sys_created_on>
+            <sys_id>01236aa9db569b80d8f0788dbf9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VSTS Release Info</sys_name>
+            <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+            <sys_update_name>sys_documentation_change_request_x_mioms_vsts_integ_vsts_release_info_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 22:29:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="VSTS Integration Info" section_id="398b8083db4a5380d8f0788dbf9619f2" sys_domain="global" table="change_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_mioms_vsts_integ_vsts_meta_data</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 22:30:47</sys_created_on>
+            <sys_id>a953222ddb569b80d8f0788dbf961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="VSTS Integration Info" display_value="VSTS Integration Info" name="change_request" sys_domain="global" view="Default view">398b8083db4a5380d8f0788dbf9619f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 22:30:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_mioms_vsts_integ_vsts_release_info</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 22:30:47</sys_created_on>
+            <sys_id>2d53222ddb569b80d8f0788dbf961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="VSTS Integration Info" display_value="VSTS Integration Info" name="change_request" sys_domain="global" view="Default view">398b8083db4a5380d8f0788dbf9619f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 22:30:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>VSTS Integration Info</caption>
+            <header>false</header>
+            <name>change_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sheeraz.memon</sys_created_by>
+            <sys_created_on>2018-05-17 17:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>398b8083db4a5380d8f0788dbf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VSTS Integration Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+            <sys_update_name>sys_ui_section_398b8083db4a5380d8f0788dbf9619f2</sys_update_name>
+            <sys_updated_by>sheeraz.memon</sys_updated_by>
+            <sys_updated_on>2018-05-17 17:02:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

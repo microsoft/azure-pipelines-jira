@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Assert a response payload contains 'matching change request was found for the vsts rel...'</description>
+        <display_name>Assert Response Payload</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Assert Response Payload">d53e40d59f132200ef4afa7dc67fcfc7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:34:29</sys_created_on>
+        <sys_id>3b5ce48ddb561b80d8f0788dbf96198f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assert Response Payload</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_atf_step_3b5ce48ddb561b80d8f0788dbf96198f</sys_update_name>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:39:07</sys_updated_on>
+        <table/>
+        <test display_value="Scripted REST Test positive">c6986409db561b80d8f0788dbf9619df</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3b5ce48ddb561b80d8f0788dbf96198f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3b5ce48ddb561b80d8f0788dbf96198f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:34:29</sys_created_on>
+        <sys_id>0a7c288ddb561b80d8f0788dbf9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:34:29</sys_updated_on>
+        <value>contains</value>
+        <variable display_value="">ccae44d59f132200ef4afa7dc67fcf1e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3b5ce48ddb561b80d8f0788dbf96198f</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:34:29</sys_created_on>
+        <sys_id>ca7c288ddb561b80d8f0788dbf9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:34:29</sys_updated_on>
+        <value>matching change request was found for the vsts release metadata</value>
+        <variable display_value="">f0eec4d59f132200ef4afa7dc67fcf6d</variable>
+    </sys_variable_value>
+</record_update>

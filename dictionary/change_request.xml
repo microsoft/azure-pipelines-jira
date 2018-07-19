@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,text_index_translations=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Change Request" max_length="40" name="change_request" sizeclass="98" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="VSTS Meta Data" max_length="1024" name="x_mioms_vsts_integ_vsts_meta_data" read_only="true" type="string"/>
+        <element label="VSTS Release Info" max_length="4000" name="x_mioms_vsts_integ_vsts_release_info" read_only="true" type="string"/>
+    </element>
+</database>

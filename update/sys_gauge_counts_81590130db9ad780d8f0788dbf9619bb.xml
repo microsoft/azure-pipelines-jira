@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge_counts">
+    <sys_gauge_counts action="INSERT_OR_UPDATE">
+        <gauge_id display_value="Additional Metrics">53d6e3231f3121006d691b220e8b70e0</gauge_id>
+        <image/>
+        <name>MaxOrchCoreTransactionLast12Month</name>
+        <omit_line>false</omit_line>
+        <order/>
+        <override_style/>
+        <query/>
+        <script>SNC.UsageAnalyticsScriptUtils.getCount('MaxOrchCoreTransactionLast12Month', 'In the last 12 months, The highest Orchestration Core only transactions executed in a given month');</script>
+        <short_description>In the last 12 months, The highest Orchestration Core only transactions executed</short_description>
+        <sys_class_name>sys_gauge_counts</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-05-23 08:02:05</sys_created_on>
+        <sys_id>81590130db9ad780d8f0788dbf9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MaxOrchCoreTransactionLast12Month</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_gauge_counts_81590130db9ad780d8f0788dbf9619bb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-23 08:02:05</sys_updated_on>
+        <tablename>MaxOrchCoreTransactionLast12Month</tablename>
+        <use_script>true</use_script>
+    </sys_gauge_counts>
+</record_update>

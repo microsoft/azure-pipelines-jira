@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Assert a response status code is '200'</description>
+        <display_name>Assert Status Code</display_name>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Assert Status Code">2f4fa7309f132200ef4afa7dc67fcf0f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:31:25</sys_created_on>
+        <sys_id>dfbbac4ddb561b80d8f0788dbf96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Status Code</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_atf_step_dfbbac4ddb561b80d8f0788dbf96190d</sys_update_name>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:31:25</sys_updated_on>
+        <table/>
+        <test display_value="Scripted REST Test positive">c6986409db561b80d8f0788dbf9619df</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dfbbac4ddb561b80d8f0788dbf96190d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfbbac4ddb561b80d8f0788dbf96190d</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:31:25</sys_created_on>
+        <sys_id>59cbacc9db561b80d8f0788dbf96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:31:25</sys_updated_on>
+        <value>200</value>
+        <variable display_value="">9f5f67709f132200ef4afa7dc67fcf94</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfbbac4ddb561b80d8f0788dbf96190d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:31:25</sys_created_on>
+        <sys_id>91cbacc9db561b80d8f0788dbf96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:31:25</sys_updated_on>
+        <value>equals</value>
+        <variable display_value="">1d94cb1f3b8032000774229c93efc419</variable>
+    </sys_variable_value>
+</record_update>

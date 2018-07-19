@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Assert a response status code name contains 'Forbidden'</description>
+        <display_name>Assert Status Code Name</display_name>
+        <inputs/>
+        <order>3</order>
+        <step_config display_value="Assert Status Code Name">49213f709f132200ef4afa7dc67fcfd0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:39:38</sys_created_on>
+        <sys_id>a9ad2401db961b80d8f0788dbf9619db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assert Status Code Name</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_atf_step_a9ad2401db961b80d8f0788dbf9619db</sys_update_name>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:44:57</sys_updated_on>
+        <table/>
+        <test display_value="Scripted REST Test negative">a9ada001db961b80d8f0788dbf9619c5</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a9ad2401db961b80d8f0788dbf9619db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a9ad2401db961b80d8f0788dbf9619db</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:39:38</sys_created_on>
+        <sys_id>25ad2401db961b80d8f0788dbf9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:39:38</sys_updated_on>
+        <value>contains</value>
+        <variable display_value="">813133b09f132200ef4afa7dc67fcf6b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a9ad2401db961b80d8f0788dbf9619db</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sheeraz.memon</sys_created_by>
+        <sys_created_on>2018-05-24 00:39:38</sys_created_on>
+        <sys_id>e5ad2401db961b80d8f0788dbf9619dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sheeraz.memon</sys_updated_by>
+        <sys_updated_on>2018-05-24 00:44:57</sys_updated_on>
+        <value>Forbidden</value>
+        <variable display_value="">6a61b3b09f132200ef4afa7dc67fcf36</variable>
+    </sys_variable_value>
+</record_update>
