@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="VSTS Integration Info" section_id="398b8083db4a5380d8f0788dbf9619f2" sys_domain="global" table="change_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_mioms_vsts_integ_vsts_meta_data</element>

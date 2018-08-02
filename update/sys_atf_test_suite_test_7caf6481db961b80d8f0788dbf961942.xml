@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_atf_test_suite_test">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
     <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
         <abort_on_failure>false</abort_on_failure>
         <order>2</order>

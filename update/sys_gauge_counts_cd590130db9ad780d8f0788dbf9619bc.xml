@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_gauge_counts">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge_counts">
     <sys_gauge_counts action="INSERT_OR_UPDATE">
         <gauge_id display_value="Additional Metrics">53d6e3231f3121006d691b220e8b70e0</gauge_id>
         <image/>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_auth_profile_basic">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
     <sys_auth_profile_basic action="INSERT_OR_UPDATE">
         <name>vsts</name>
         <password>zfXI2WfSfLCObdO2PJjp3w==</password>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="New" section_id="9d0841fedb129f80d8f0788dbf961910" sys_domain="global" table="cmdb_ci_computer" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>category</element>
