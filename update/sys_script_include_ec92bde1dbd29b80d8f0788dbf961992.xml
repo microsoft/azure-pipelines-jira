@@ -39,7 +39,6 @@ ChangeManager.FindChangeNumberAndState = function(metadata)
 	var change = changeManager.findChange(metadata);
 	if (change)
 		{
-			returnObj.sys_id = change.sys_id;
 			returnObj.number = change.getDisplayValue("number");
 			returnObj.state = change.getDisplayValue("state");		
 		}
@@ -64,7 +63,6 @@ ChangeManager.CreateChange = function(requestObj)
 			var change = queryHelper.createRecord('change_request', requestObj);
 			if (change)
 				{
-					returnObj.sys_id = change.sys_id;
 					returnObj.number = change.getDisplayValue("number");
 					returnObj.state = change.getDisplayValue("state");
 				}
@@ -95,32 +93,18 @@ ChangeManager.UpdateChange = function(metadata, requestObj)
 		}
 	
 	return returnObj;	
-};
-
-ChangeManager.GetChangeRequestUrl2 = function(change_number)
-{
-	var serverUrl = gs.getProperty('glide.servlet.uri');
-	var changeRequestUrl = serverUrl+"change_request_list.do?sysparm_query=number="+change_number;
-	return changeRequestUrl;
-};
-
-ChangeManager.GetChangeRequestUrl = function(change)
-{
-	var serverUrl = gs.getProperty('glide.servlet.uri');
-	var changeRequestUrl = serverUrl+"nav_to.do?uri=change_request.do?sys_id="+change.sys_id;
-	return changeRequestUrl;
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-25 18:57:49</sys_created_on>
         <sys_id>ec92bde1dbd29b80d8f0788dbf961992</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>ChangeManager</sys_name>
         <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
         <sys_update_name>sys_script_include_ec92bde1dbd29b80d8f0788dbf961992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 06:23:50</sys_updated_on>
+        <sys_updated_on>2018-08-06 06:38:41</sys_updated_on>
     </sys_script_include>
 </record_update>

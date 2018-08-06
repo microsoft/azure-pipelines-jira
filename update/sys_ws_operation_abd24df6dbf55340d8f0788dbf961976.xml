@@ -26,7 +26,6 @@
 		if (change && change.number)
 		{
 			responseBody = change;
-			responseBody.changeRequestUrl = ChangeManager.GetChangeRequestUrl(change);
 			responseBody.method = "matching change request was found for the vsts release metadata";			}
 		else
 		{
@@ -35,7 +34,6 @@
 			if (newchange && newchange.number)				
 				{
 					responseBody = newchange;
-					responseBody.changeRequestUrl = ChangeManager.GetChangeRequestUrl(change);
 					responseBody.method = "a new change request was created for the vsts release metadata";		
 				}
 			else
@@ -60,14 +58,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-04 16:11:39</sys_created_on>
         <sys_id>abd24df6dbf55340d8f0788dbf961976</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>queryorcreate</sys_name>
         <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
         <sys_policy/>
         <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
         <sys_update_name>sys_ws_operation_abd24df6dbf55340d8f0788dbf961976</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 06:14:38</sys_updated_on>
+        <sys_updated_on>2018-08-06 06:35:55</sys_updated_on>
         <web_service_definition display_value="vstschangeintegration">e28249f6dbf55340d8f0788dbf96195c</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
