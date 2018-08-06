@@ -26,6 +26,7 @@
 				{
 					responseBody.number = updatedchange.number;
 					responseBody.message = 'successful';
+					responseBody.changeRequestUrl = ChangeManager.GetChangeRequestUrl(updatedchange);
 					responseBody.method = "Change was successfully updated";
 					response.setBody(responseBody);	
 				}
@@ -50,14 +51,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 21:12:21</sys_created_on>
         <sys_id>6ddcb7f4dbd21b80d8f0788dbf9619bd</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>update</sys_name>
         <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
         <sys_policy/>
         <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
         <sys_update_name>sys_ws_operation_6ddcb7f4dbd21b80d8f0788dbf9619bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-02 10:31:32</sys_updated_on>
+        <sys_updated_on>2018-08-06 06:14:08</sys_updated_on>
         <web_service_definition display_value="vstschangeintegration">e28249f6dbf55340d8f0788dbf96195c</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
