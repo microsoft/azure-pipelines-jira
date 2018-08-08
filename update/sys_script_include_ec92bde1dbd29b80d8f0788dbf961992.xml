@@ -51,6 +51,16 @@ ChangeManager.FindChangeNumberAndState = function(metadata)
 	return returnObj;		
 };
 
+// Find a change request that matches with the supplied number
+ChangeManager.FindChangeRequestByNumber = function(number)
+{
+	var changequery = {"tablename":"change_request","queryitems": [{"field":"","value":""}]};
+	changequery.queryitems[0].field = "number";
+	changequery.queryitems[0].value = number;
+	var queryHelper = new x_mioms_vsts_integ.queryHelper();
+	return queryHelper.executeQuery(changequery);	
+};
+
 // Static function to create a new change request
 // Input: a flat json with each property matching the corresponding field in change request by name
 // Output: Json object of the type { "result": { "number": "CHG0030115", "state": "New" } } 
@@ -93,18 +103,28 @@ ChangeManager.UpdateChange = function(metadata, requestObj)
 		}
 	
 	return returnObj;	
+};
+
+// Static function to update the given change request.
+// Input: change object
+// Input: a flat json with each property matching the corresponding field in change request by name
+// Output: Json object of the type { "result": { "number": "CHG0030115", "state": "New" } }
+ChangeManager.UpdateChangeRequestObject = function(change, requestObj)
+{
+	var queryHelper = new x_mioms_vsts_integ.queryHelper();
+	return queryHelper.updateRecord(change, requestObj);
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-25 18:57:49</sys_created_on>
         <sys_id>ec92bde1dbd29b80d8f0788dbf961992</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>ChangeManager</sys_name>
         <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
         <sys_update_name>sys_script_include_ec92bde1dbd29b80d8f0788dbf961992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 06:38:41</sys_updated_on>
+        <sys_updated_on>2018-08-08 06:43:42</sys_updated_on>
     </sys_script_include>
 </record_update>

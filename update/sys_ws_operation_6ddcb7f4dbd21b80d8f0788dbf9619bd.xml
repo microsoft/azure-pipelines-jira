@@ -10,32 +10,64 @@
         <operation_script><![CDATA[// PATCH REST API
 // Update a matching change request. Error is change does not exist
 // Use vstsmetadata in request body as key to match the change request with
-(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-	var responseBody = { };
+(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+    var responseBody = {};
     var event = request.body;
-	var metadataFromRequest = event.data.vstsmetadata;
-	if (!metadataFromRequest)
-		{
-		response.setError(new sn_ws_err.BadRequestError("vsts release metadata must be passed for the API"));	
-		}
-	else
-		{
-			var updateRequestData = InputsManager.ParseInputAndCreateChangeObject(event.data);
-			var updatedchange = ChangeManager.UpdateChange(metadataFromRequest, updateRequestData);
-			if (updatedchange && updatedchange.number)				
-				{
-					responseBody.number = updatedchange.number;
-					responseBody.message = 'successful';
-					responseBody.method = "Change was successfully updated";
-					response.setBody(responseBody);	
-				}
-			else
-				{
-					 var error = new sn_ws_err.ServiceError();
-					 error.setMessage("Update change failed");
-					 response.setError(error);
-				}
-		}    
+    var metadataFromRequest = event.data.vstsmetadata;
+    var changerequestnumber = event.data.changerequestnumber;
+    var error = new sn_ws_err.ServiceError();
+	var updatedChangeRequest;
+
+    if (!metadataFromRequest && !changerequestnumber) {
+        error = new sn_ws_err.ServiceError();
+        response.setError(new sn_ws_err.BadRequestError("vsts release metadata or change request number must be passed for the API"));
+        return;
+    }
+
+    if (changerequestnumber) {
+        // find change request by number and then update status of change_request
+        var change = ChangeManager.FindChangeRequestByNumber(changerequestnumber);
+        if (!change) {
+            error = new sn_ws_err.ServiceError();
+            error.setMessage("No change request found with the given number");
+            response.setError(error);
+            return;
+        }
+
+        var requestData = {};
+        requestData["state"] = event.data.state;
+        var updateRequest = InputsManager.ParseInputAndCreateChangeObject(requestData);
+        if (updateRequest) {
+            updatedChangeRequest = ChangeManager.UpdateChangeRequestObject(change, updateRequest);
+            if (updatedChangeRequest) {
+                responseBody.message = 'successful';
+                responseBody.method = "Change request was successfully updated";
+                response.setBody(responseBody);
+                return;
+            } else {
+                error.setMessage("Failed to update change request");
+                response.setError(error);
+                return;
+            }
+        } else {
+            error.setMessage("Unable to parse input and create change object");
+            response.setError(error);
+            return;
+        }
+    } else {
+        var updateRequestData = InputsManager.ParseInputAndCreateChangeObject(event.data);
+        updatedChangeRequest = ChangeManager.UpdateChange(metadataFromRequest, updateRequestData);
+        if (updatedChangeRequest && updatedChangeRequest.number) {
+            responseBody.number = updatedChangeRequest.number;
+            responseBody.message = 'successful';
+            responseBody.method = "Change request was successfully updated";
+            response.setBody(responseBody);
+        } else {
+            error = new sn_ws_err.ServiceError();
+            error.setMessage("Failed to update change request.");
+            response.setError(error);
+        }
+    }
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_mioms_vsts_integ/vstschangeintegration</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -50,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 21:12:21</sys_created_on>
         <sys_id>6ddcb7f4dbd21b80d8f0788dbf9619bd</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>update</sys_name>
         <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
         <sys_policy/>
         <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
         <sys_update_name>sys_ws_operation_6ddcb7f4dbd21b80d8f0788dbf9619bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 06:36:26</sys_updated_on>
+        <sys_updated_on>2018-08-08 08:03:05</sys_updated_on>
         <web_service_definition display_value="vstschangeintegration">e28249f6dbf55340d8f0788dbf96195c</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

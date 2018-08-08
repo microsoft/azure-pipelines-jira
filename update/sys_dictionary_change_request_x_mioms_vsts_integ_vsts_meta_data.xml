@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sheeraz.memon</sys_created_by>
         <sys_created_on>2018-05-17 17:02:42</sys_created_on>
-        <sys_id>194a7eabdb6f13005a31e04a48961913</sys_id>
+        <sys_id>cf354991db7b17005a31e04a48961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>VSTS Meta Data</sys_name>
         <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
         <sys_update_name>sys_dictionary_change_request_x_mioms_vsts_integ_vsts_meta_data</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-02 08:37:20</sys_updated_on>
+        <sys_updated_on>2018-08-07 10:35:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
