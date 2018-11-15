@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="import_admin" name="import_admin">4a6a6e710a0a0bc000e6426eac13db01</contains>
+        <role display_value="x_mioms_vsts_integ.vstsExecution" name="x_mioms_vsts_integ.vstsExecution">c3a8cba8dbd2d780d8f0788dbf961978</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-15 17:13:35</sys_created_on>
+        <sys_id>af5fd125dbb16300a4649006db9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>import_admin.x_mioms_vsts_integ.vstsExecution</sys_name>
+        <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+        <sys_update_name>sys_user_role_contains_af5fd125dbb16300a4649006db9619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 17:13:35</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
