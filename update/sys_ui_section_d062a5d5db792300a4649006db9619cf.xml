@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d062a5d5db792300a4649006db9619cf" sys_domain="global" table="x_mioms_vsts_integ_change_request_import" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_number</element>
+            <position>1</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_assignee_list</element>
+            <position>2</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_closed_by</element>
+            <position>4</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cmdb_ci</element>
+            <position>6</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments</element>
+            <position>7</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_correlation_id</element>
+            <position>9</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>10</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_end_date</element>
+            <position>11</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>12</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_order</element>
+            <position>14</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_outside_maintenance_schedule</element>
+            <position>15</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phase</element>
+            <position>16</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_by_date</element>
+            <position>17</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_comments</element>
+            <position>19</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_description</element>
+            <position>20</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_std_change_producer_version</element>
+            <position>22</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>23</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_upon_approval</element>
+            <position>24</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_wf_activity</element>
+            <position>25</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>26</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <position>27</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approval</element>
+            <position>28</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approval_set</element>
+            <position>29</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>30</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assignment_group</element>
+            <position>31</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cab_date</element>
+            <position>32</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_change_plan</element>
+            <position>33</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>34</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_conflict_status</element>
+            <position>35</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_correlation_display</element>
+            <position>36</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_delivery_task</element>
+            <position>37</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_expected_start</element>
+            <position>38</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_follow_up</element>
+            <position>39</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_hold_reason</element>
+            <position>40</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opened_at</element>
+            <position>41</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent</element>
+            <position>42</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phase_state</element>
+            <position>43</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_priority</element>
+            <position>44</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_production_system</element>
+            <position>45</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>46</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason</element>
+            <position>47</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reassignment_count</element>
+            <position>48</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_by</element>
+            <position>49</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_risk</element>
+            <position>50</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_risk_impact_analysis</element>
+            <position>51</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_start_date</element>
+            <position>52</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_time_worked</element>
+            <position>53</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_upon_reject</element>
+            <position>54</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_urgency</element>
+            <position>55</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_watch_list</element>
+            <position>56</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_end</element>
+            <position>57</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>58</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes</element>
+            <position>59</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_x_mioms_vsts_s_release_info</element>
+            <position>60</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>61</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_activity_due</element>
+            <position>62</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>63</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assigned_to</element>
+            <position>64</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>65</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_backout_plan</element>
+            <position>66</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>67</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_duration</element>
+            <position>68</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_service</element>
+            <position>69</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cab_delegate</element>
+            <position>70</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cab_required</element>
+            <position>71</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>72</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_calendar_duration</element>
+            <position>73</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_closed_at</element>
+            <position>74</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_close_code</element>
+            <position>75</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>76</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments_and_work_notes</element>
+            <position>77</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>78</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contact_type</element>
+            <position>79</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_due_date</element>
+            <position>80</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_escalation</element>
+            <position>81</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>82</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_group_list</element>
+            <position>83</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_impact</element>
+            <position>84</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>85</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_implementation_plan</element>
+            <position>86</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>87</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_justification</element>
+            <position>88</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_made_sla</element>
+            <position>89</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_hold</element>
+            <position>90</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_on_hold_task</element>
+            <position>91</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rejection_goto</element>
+            <position>92</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_date</element>
+            <position>93</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_review_status</element>
+            <position>94</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>95</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_scope</element>
+            <position>96</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sla_due</element>
+            <position>97</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user_input</element>
+            <position>98</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_start</element>
+            <position>99</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approval_history</element>
+            <position>100</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cab_recommendation</element>
+            <position>101</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>102</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <position>103</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_close_notes</element>
+            <position>104</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>105</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>106</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>107</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_conflict_last_run</element>
+            <position>108</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>109</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_delivery_plan</element>
+            <position>110</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>111</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_knowledge</element>
+            <position>112</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1462a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opened_by</element>
+            <position>113</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9462a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>114</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1862a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>115</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9862a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_test_plan</element>
+            <position>116</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1c62a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_variables</element>
+            <position>117</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9c62a5d5db792300a4649006db9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes_list</element>
+            <position>118</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>1062a5d5db792300a4649006db9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>119</position>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_id>9062a5d5db792300a4649006db9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_mioms_vsts_integ_change_request_import" sys_domain="global" view="Default view">d062a5d5db792300a4649006db9619cf</sys_ui_section>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_mioms_vsts_integ_change_request_import</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>vsts_integ_dev</sys_created_by>
+            <sys_created_on>2018-11-14 22:48:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d062a5d5db792300a4649006db9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_mioms_vsts_integ_change_request_import</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="vsts_Integration" source="x_mioms_vsts_integ">9d2281f2dbf55340d8f0788dbf9619c3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="vsts_Integration">9d2281f2dbf55340d8f0788dbf9619c3</sys_scope>
+            <sys_update_name>sys_ui_section_d062a5d5db792300a4649006db9619cf</sys_update_name>
+            <sys_updated_by>vsts_integ_dev</sys_updated_by>
+            <sys_updated_on>2018-11-14 22:48:15</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
