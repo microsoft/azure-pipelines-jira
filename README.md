@@ -1,3 +1,9 @@
+# ServiceNow change management integration with Azure Pipelines
+ServiceNow provides market leading capabilities for change management.
+Azure Pipelines integrates with ServiceNow to improve the collaboration between development and  IT teams.
+This repository contains a private update set of the [Azure Pipelines](https://store.servicenow.com/sn_appstore_store.do#!/store/application/fa788cb5dbb5630040669c27db961940/3.150.1?referer=sn_appstore_store.do%23!%2Fstore%2Fsearch%3Fq%3Dazure%2520pipelines) app published on ServiceNow store.
+It is provided here purely for reference purposes. If you do not have access to the store, you can import this updateset in your ServiceNow instance and get the functionality. Support in that case, however, would be limited.
+
 # Generated files
 This repository contains generated files and a checksum.
 
