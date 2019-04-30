@@ -1,5 +1,9 @@
 # Azure Pipelines for Jira
 
+## Add release information from Azure Pipelines to Jira issues
+
+![bi-directional linking in action](images/collaborationimage.png){width="6.5in" height="3.1791666666666667in"}
+
 Giving teams a choice of tools for configuring development pipelines
 helps establish a successful DevOps ecosystem and enhances collaboration
 between cross-functional teams. High performing teams operate at their
@@ -23,12 +27,13 @@ issue is delivered. Using the integration, teams can setup a tight
 development cycle from issue creation through release. Key development
 milestones for an issue can be tracked from Jira.
 
-![](media/image2.png){width="6.5in" height="3.1791666666666667in"}
+![track builds and releases in Jira](images/trackissues.png){width="6.499647856517935in"
+height="3.066666666666667in"}
 
 Associated Jira issues can also be viewed in builds and releases for a
 complete deployment history per environment.
 
-![](media/image3.png){width="6.499647856517935in"
+![View associated Jira issues in Azure Pipelines](images/releaseview.png){width="6.499647856517935in"
 height="3.066666666666667in"}
 
 It is common for teams to use Jira for issue tracking, GitHub as a
@@ -46,10 +51,10 @@ whether their commits have been deployed to production, and release
 managers can create release notes in a jiffy.
 
 Get started by installing [Azure Pipelines integration with
-Jira]{.underline} to connect your Azure DevOps organizations with your
+Jira](http://test.com) to connect your Azure DevOps organizations with your
 Jira instance. You can connect multiple organizations with one Jira
 instance and get data for all your teams and related projects.
 
-![](media/image4.png){width="6.5in" height="4.0625in"}
+![Connect multiple AzureDevOps orgs to Jira](images/manageapp.png){width="6.5in" height="4.0625in"}
 
 [Contact us](https://developercommunity.visualstudio.com/content/problem/post.html?space=21) for more details.
