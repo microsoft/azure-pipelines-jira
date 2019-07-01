@@ -19,7 +19,7 @@ of any language, deploying to any platform or any cloud.
 [Azure DevOps](http://www.azure.com/devops) and
 [Atlassian](https://www.atlassian.com/) have partnered
 together for [Azure Pipelines](http://www.azure.com/pipelines)
-integration with [Jira software](https://www.atlassian.com/software/jira). This app would be available for installation on the Atlassian marketplace soon. [Contact Us](mailto:rm_customer_queries@microsoft.com) for more details.
+integration with [Jira software](https://www.atlassian.com/software/jira). Get started with the integration as described [here](./tutorial.md).  [Contact Us](mailto:rm_customer_queries@microsoft.com) for more details.
 
 Azure Pipelines integration with Jira connects the two services,
 providing full tracking of how and when the value envisioned with an
