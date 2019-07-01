@@ -6,7 +6,7 @@ tool for all parts of the pipeline without impacting the bidirectional flow of i
 
 Azure Pipelines and Atlassian partner together to bring an integration of Azure Pipelines with Jira software cloud. The integration adds links to Jira issues as work items deployed with the pipeline and enables you to view deployment details from Pipelines directly in Jira issues. You can now automatically include Jira issues in release notes, and you can completely track delivery of issues without leaving Jira.
 
-| [WIT view in release](./images/viewWIT_small.png) | [./media/image2.png](images/releasesview.png) |
+| ![WIT view in release](./images/viewWIT_small.png) | ![releases in Jira](images/releasesview.png) |
 |------------------------------------------|------------------------------------------|
 
 This tutorial provides a step by step guide for connecting Azure Pipelines with Jira software cloud and enabling communication between the services.
