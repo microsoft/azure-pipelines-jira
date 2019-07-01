@@ -55,6 +55,6 @@ instance and get data for all your teams and related projects.
 
 ![Connect multiple AzureDevOps orgs to Jira](images/ManageApp.png)
 
-[Get started](./tutorial.md).
-[Contact us](https://developercommunity.visualstudio.com/content/problem/post.html?space=21) for more details.
+[Get started](./tutorial.md)
 
+[Contact us](https://developercommunity.visualstudio.com/content/problem/post.html?space=21) for more details.
