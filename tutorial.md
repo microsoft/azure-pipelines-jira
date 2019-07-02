@@ -12,12 +12,13 @@ Azure Pipelines and Atlassian partner together to bring an integration of Azure 
 This tutorial provides a step by step guide for connecting Azure Pipelines with Jira software cloud and enabling communication between the services.
 
 ## **Prerequisites**
+You must be a Jira site adminstrator to install the integration. 
+
+[GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and connected to the correct accoutns and repositories in GitHub. You would need to [add Jira issue keys](https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html) to the commit or pull request messages for the information to be available in Azure Pipelines.
 
 This tutorial assumes the team is using the following tools in their DevOps pipeline.
 
 ![DevOps pipeline](./images/devopspipeline.png)
-
-[GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and configured to enable use of [smart commits](https://confluence.atlassian.com/fisheye/using-smart-commits-298976812.html?_ga=2.264408203.506527647.1561969087-650469135.1561969087) in GitHub.
 
 ## **Connecting Azure Pipelines and Jira Cloud**
 
@@ -41,10 +42,10 @@ The next step is to inform the release pipeline to interact with Jira cloud for 
 
 Let us see it in action E2E.
 
-1. Make a smart commit in GitHub referring a Jira issue.
+1. Make a commit in GitHub including the Jira issue key in the commit message. In case you are using pull requests, the issue key can be included in the pull request title as well. This ensures the commit, branch and pull request are linked with the issue and shown in the development panel.
 
     ![commit](./images/commit.png)
-
+ 
 1. It would automatically trigger the CI/CD pipeline in Azure Pipelines.
 
     ![triggered release](./images/release.png)
