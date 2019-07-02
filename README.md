@@ -49,7 +49,7 @@ whether their commits have been deployed to production, and release
 managers can create release notes in a jiffy.
 
 Get started by installing [Azure Pipelines integration with
-Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) to connect your Azure DevOps organizations with your Jira instance. You can connect multiple organizations with one Jira instance and get data for all your teams and related projects. [Learn more](./tutorial.md)
+Jira](https://marketplace.atlassian.com/apps/1220515/azure-pipelines-for-jira?hosting=cloud&tab=overview) to connect your Azure DevOps organizations with your Jira instance. You can connect multiple organizations with one Jira instance and get data for all your teams and related projects. [Learn more](./tutorial.md)
 
 ![Connect multiple AzureDevOps orgs to Jira](images/ManageApp.png)
 
