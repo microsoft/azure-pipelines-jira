@@ -71,7 +71,7 @@ The integration is triggered from Jira software cloud only. To add another insta
 Yes. You can configure the integration for multiple Azure DevOps organization from the manage application page in Jira cloud.
 
 - How do I add another project in a pre-configured organization to the integration?
-Use the add organization button to add additional projects in organizations already configured for the integration.
+Use the Create Project button to add additional projects in organizations already configured for the integration.
 
 - The information flow is not working. What should I do?
 Try by removing the organization from Jira cloud and reconfiguring the integration. You may need to update the release pipeline as well. Data for existing releases would not be impacted by this.
