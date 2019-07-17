@@ -14,7 +14,7 @@ This tutorial provides a step by step guide for connecting Azure Pipelines with 
 ## **Prerequisites**
 You must be a Jira site adminstrator to install the integration. 
 
-[GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and connected to the correct accoutns and repositories in GitHub. You would need to [add Jira issue keys](https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html) to the commit or pull request messages for the information to be available in Azure Pipelines.
+[GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and connected to the correct accounts and repositories in GitHub. You would need to [add Jira issue keys](https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html) to the commit or pull request messages for the information to be available in Azure Pipelines.
 
 This integration works when the team is using the following tools in their DevOps pipeline.
 
