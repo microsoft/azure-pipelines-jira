@@ -14,9 +14,13 @@ This tutorial provides a step by step guide for connecting Azure Pipelines with 
 ## **Prerequisites**
 You must be a Jira site adminstrator to install the integration. 
 
-[GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and connected to the correct accoutns and repositories in GitHub. You would need to [add Jira issue keys](https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html) to the commit or pull request messages for the information to be available in Azure Pipelines.
+The source control system must be connected to your Jira software cloud instance. 
+In case you use GitHub, [GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and connected to the correct accounts and repositories in GitHub. 
+For Azure Repos, you can install Git integration applications like [Git integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) or [TFS4JIRA Azure DevOps integration](https://marketplace.atlassian.com/apps/42296/tfs4jira-azure-devops-integration?hosting=cloud&tab=overview).
 
-This integration works when the team is using the following tools in their DevOps pipeline.
+You would need to [add Jira issue keys](https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html) to the commit or pull request messages for the information to be available in Azure Pipelines.
+
+This tutorial assumes the team is using the following tools in their DevOps pipeline.
 
 ![DevOps pipeline](./images/devopspipeline.png)
 
@@ -75,6 +79,9 @@ Use the add organization button to add additional projects in organizations alre
 
 - The information flow is not working. What should I do?
 Try by removing the organization from Jira cloud and reconfiguring the integration. You may need to update the release pipeline as well. Data for existing releases would not be impacted by this.
+
+- What source code repositories does this integration work with?
+The integration supports tracking deployments performed with Azure Pipelines for Jira issues linked to commits in GitHub and Azure Repos only. It does not enable traceability for BitBucket repos. 
 
 - Can I also see builds performed by Azure Pipelines in Jira?
 The integration currently supports traceability for deployments (releases) only. Viewing build information in Jira is not supported.
