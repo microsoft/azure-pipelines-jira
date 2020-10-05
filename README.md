@@ -54,3 +54,5 @@ Jira](https://marketplace.atlassian.com/apps/1220515/azure-pipelines-for-jira?ho
 ![Connect multiple AzureDevOps orgs to Jira](images/ManageApp.png)
 
 [Contact us](https://developercommunity.visualstudio.com/content/problem/post.html?space=21) for more details.
+
+For more information on supported scenarios, refer to [FAQs](tutorial.md#faqs).
