@@ -69,19 +69,30 @@ Let us see it in action E2E.
 ## **FAQs**
 
 - How do I add another Jira cloud instance to my Azure DevOps account?
+
 The integration is triggered from Jira software cloud only. To add another instance to your Azure DevOps account, install the app on the instance and add the Azure DevOps organization to it.
 
 - Can I add multiple Azure DevOps organizations to a Jira cloud instance?
+
 Yes. You can configure the integration for multiple Azure DevOps organization from the manage application page in Jira cloud.
 
 - How do I add another project in a pre-configured organization to the integration?
+
 Use the add organization button to add additional projects in organizations already configured for the integration.
 
 - The information flow is not working. What should I do?
+
 Try by removing the organization from Jira cloud and reconfiguring the integration. You may need to update the release pipeline as well. Data for existing releases would not be impacted by this.
 
 - What source code repositories does this integration work with?
+
 The integration supports tracking deployments performed with Azure Pipelines for Jira issues linked to commits in GitHub and Azure Repos only. It does not enable traceability for BitBucket repos. 
 
 - Can I also see builds performed by Azure Pipelines in Jira?
+
 The integration currently supports traceability for deployments (releases) only. Viewing build information in Jira is not supported.
+
+
+- Does the integration work for YAML Pipelines?
+
+The integration currently supports traceability for deployments from classic releases only. Builds and deployments from YAML pipelines is not supported.
