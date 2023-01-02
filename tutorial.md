@@ -16,7 +16,7 @@ You must be a Jira site adminstrator to install the integration.
 
 If you want commits and PRs to be available in the Jira issue, the source control system must be connected to your Jira software cloud instance. 
 In case you use GitHub, [GitHub for Jira](https://marketplace.atlassian.com/apps/1219592/github-for-jira?hosting=cloud&tab=overview) application must be installed and connected to the correct accounts and repositories in GitHub. 
-For Azure Repos, you can install Git integration applications like [Git integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview) or [TFS4JIRA Azure DevOps integration](https://marketplace.atlassian.com/apps/42296/tfs4jira-azure-devops-integration?hosting=cloud&tab=overview).
+For Azure Repos, you can install Git integration applications like [Git integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=cloud&tab=overview), [Azure Git Listener](https://marketplace.atlassian.com/apps/1221787/azure-git-listener-for-jira) or [TFS4JIRA Azure DevOps integration](https://marketplace.atlassian.com/apps/42296/tfs4jira-azure-devops-integration?hosting=cloud&tab=overview).
 
 Irrespective of connection with source control, you start by [adding Jira issue keys](https://confluence.atlassian.com/adminjiracloud/integrating-with-development-tools-776636216.html) to the commit or pull request messages for the information to be available in Azure Pipelines.
 
