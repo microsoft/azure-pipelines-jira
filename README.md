@@ -1,5 +1,7 @@
 # Azure Pipelines for Jira
 
+## Attention: [Azure Pipelines for Jira](https://marketplace.atlassian.com/apps/1220515/azure-pipelines-for-jira?tab=overview&hosting=cloud) by AzureDevOps is no longer maintained. 🚨 Discover the official replacement extension maintained by Atlassian here: [Azure DevOps for Jira (Official)](https://marketplace.atlassian.com/apps/1232793/azure-devops-for-jira-official?hosting=cloud&tab=overview)
+
 ## Add release information from Azure Pipelines to Jira issues
 
 ![bi-directional linking in action](images/CollaborationImage.png)
